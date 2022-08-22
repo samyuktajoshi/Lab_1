@@ -7,13 +7,13 @@ public class Program {
 
     public static void main(String[] args) {
        Scanner scan = new Scanner(System.in);
-        System.out.println("Enter first number: ");
+        System.out.println("¬ведите первое число: ");
         int a = scan.nextInt();
-        System.out.println("Enter second number: ");
+        System.out.println("¬ведите второе число: ");
         int b = scan.nextInt();
-        System.out.println("Enter fird number: ");
+        System.out.println("¬ведите третье число: : ");
         int c = scan.nextInt();
         int sum = a+b+c;
-        System.out.println("Sum of numbers is "+sum);
+        System.out.println("—умма чисел равна = "+sum);
     }
 }
